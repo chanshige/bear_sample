@@ -1,0 +1,9 @@
+{
+  "$id": "sample.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sample Api",
+  "type": "array",
+  "items": {
+    "$ref": "body.json"
+  }
+}

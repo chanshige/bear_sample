@@ -1,0 +1,27 @@
+{
+  "$id": "body.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Instagram Graph Media API",
+  "type": "object",
+  "properties": {
+    "caption": {
+      "type": "string"
+    },
+    "media_type": {
+      "type": "string"
+    },
+    "media_url": {
+      "type": "string"
+    },
+    "permalink": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "datetime"
+    },
+    "id": {
+      "type": "string"
+    }
+  }
+}
